@@ -2,7 +2,7 @@ import urllib.request
 
 Slownik = { '1': [], '2': []}
 while True:
-    Liczba = input('1-Wielkosci podstawowe \n2-generacja zrodel wiatrowych i fotowoltaicznych\nWpisz "koniec", aby przejsc do nastepnej czesci programu \n-->')
+    Liczba = input('Wpisz "1"-Wielkosci podstawowe \nWpisz "2"-generacja zrodel wiatrowych i fotowoltaicznych\nWpisz "koniec", aby przejsc do nastepnej czesci programu \n-->')
     if Liczba == 'koniec':
         # print(Slownik)
         break
